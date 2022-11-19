@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #0f1319;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.Controller">
+    <children>
+        <Button fx:id="loginButton" layoutX="146.0" layoutY="349.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="46.0" prefWidth="262.0" style="-fx-background-color: #5794f8; -fx-border-radius: 3px; -fx-background-radius: 3px;" text="Signup" textFill="WHITE">
+            <font>
+                <Font name="Verdana Bold" size="19.0" />
+            </font>
+        </Button>
+        <Label contentDisplay="CENTER" graphicTextGap="6.0" layoutX="145.0" layoutY="80.0" prefHeight="46.0" prefWidth="122.0" style="-fx-text-fill: #5794f8;" text="Signup" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font name="Verdana Bold" size="30.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usernameField" layoutX="146.0" layoutY="154.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="262.0" promptText="Username" style="-fx-border-color: #3a3e44; -fx-background-color: #1f2329;">
+            <font>
+                <Font name="Verdana" size="14.0" />
+            </font>
+        </TextField>
+        <PasswordField fx:id="passwordField" layoutX="146.0" layoutY="219.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="262.0" promptText="Password" style="-fx-border-color: #3a3e44; -fx-background-color: #1f2329; -fx-font-family: Verdana;">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </PasswordField>
+        <TextField fx:id="emailField" layoutX="146.0" layoutY="284.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="46.0" prefWidth="262.0" promptText="Email" style="-fx-border-color: #3a3e44; -fx-background-color: #1f2329;">
+            <font>
+                <Font name="Verdana" size="14.0" />
+            </font>
+        </TextField>
+        <Label fx:id="loginButton" layoutX="496.0" layoutY="29.0" prefHeight="36.0" prefWidth="80.0" text="Log In ➜" textFill="WHITE">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
