@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #153243;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.loadingController">
+   <children>
+      <Circle fx:id="cirlce1" fill="#e9d8a6" layoutX="195.0" layoutY="270.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cirlce2" fill="#e9c46a" layoutX="265.0" layoutY="270.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cirlce3" fill="#f4a261" layoutX="335.0" layoutY="270.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cirlce4" fill="#e76f51" layoutX="405.0" layoutY="270.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="circle5" fill="#153243" layoutX="149.0" layoutY="107.0" radius="2.0" stroke="#153243" strokeType="INSIDE" />
+   </children>
+</Pane>

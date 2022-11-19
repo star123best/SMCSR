@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1B2432;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.students.homePage">
+   <children>
+      <Label layoutX="148.0" layoutY="143.0" fx:id="mainLabel" prefHeight="115.0" prefWidth="305.0" text="SMCSR" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Roboto Light" size="80.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
